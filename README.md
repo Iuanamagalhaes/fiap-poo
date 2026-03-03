@@ -1,11 +1,5 @@
 # Desafio Prático | Programação Orientada a Objetos
 
-Este projeto em **Java** demonstra conceitos básicos de **Programação Orientada a Objetos (POO)** aplicados à modelagem de um **objeto real** — provavelmente um animal de estimação (*Pet/Dog, por exemplo*). Ele faz parte de um exercício prático da disciplina de POO. ([Gist][1])
-
----
-
-## Sobre o Projeto
-
 Neste projeto foi criada uma classe que representa um objeto no mundo real, um cachorro. Essa classe contém atributos que descrevem o animal e métodos para interagir com seus dados.
 
 A classe foi utilizada em um programa principal (`Main.java`) para **criar instâncias** (objetos), atribuir valores, e interagir com esses objetos para demonstrar como atributos e métodos funcionam na prática.
@@ -29,7 +23,7 @@ A classe principal `Cachorro` representa um **cachorro** com características co
 
 Este projeto demonstra os pilares da POO:
 
-✔ **Classe:** molde abstrato que define atributos e comportamentos. 
-✔ **Objeto:** instância concreta criada a partir da classe. 
-✔ **Atributos:** dados que descrevem o objeto (como nome, idade, etc.). 
-✔ **Métodos:** ações que o objeto pode realizar ou operações que podem ser feitas com seus dados.
+* **Classe:** molde abstrato que define atributos e comportamentos. 
+* **Objeto:** instância concreta criada a partir da classe. 
+*  **Atributos:** dados que descrevem o objeto (como nome, idade, etc.). 
+* **Métodos:** ações que o objeto pode realizar ou operações que podem ser feitas com seus dados.
