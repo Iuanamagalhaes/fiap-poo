@@ -17,6 +17,7 @@ public class Menu {
             System.out.println("| 3 - Verificar se está idoso..........................|");
             System.out.println("| 5 - Sair.............................................|");
             System.out.println("+______________________________________________________+");
+            System.out.print("Escolha: ");
             int escolha = scanner.nextInt();
 
             switch (escolha) {

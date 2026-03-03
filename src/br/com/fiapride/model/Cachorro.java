@@ -19,7 +19,7 @@ public class Cachorro {
 
     public void latir(){
         if (estaAcordado == false){
-            System.out.println("Erro: O cachorro está dormindo.");
+            System.err.println("Erro: O cachorro está dormindo.");
             return;
         }
         System.out.println("Au!");
@@ -27,7 +27,7 @@ public class Cachorro {
 
     public void acordarCachorro(){
         if (estaAcordado == true){
-            System.out.println("Erro: o cachorro já está acordado.");
+            System.err.println("Erro: O cachorro está dormindo.");
             return;
         }
         this.estaAcordado = true;
