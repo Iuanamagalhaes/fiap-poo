@@ -28,11 +28,11 @@ public class Cachorro {
 
     public void acordarCachorro(){
         if (estaAcordado == true){
-            System.err.println("Erro: O cachorro está dormindo.");
+            System.err.println("Erro: O cachorro já está acordado.");
             return;
         }
         setEstaAcordado(true);
-        System.out.println("Acordei");
+        System.out.println("Cachorro acordado.");
     }
 
 
@@ -42,6 +42,10 @@ public class Cachorro {
             return;
         }
         System.out.println("O cachorro tem " + idade + " anos, já é considerado idoso.");
+    }
+
+    public void cadastrarCachorro(){
+
     }
 
     public String getNome() {
